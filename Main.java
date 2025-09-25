@@ -12,7 +12,7 @@ public class Main
         hour = c.addDogs();
         for (int i = 7; i < 11; i++)
             c.addDogs();
-//        System.out.println(c);
+        System.out.println(c);
         w = new DogWalker(3, c);
     }
 
