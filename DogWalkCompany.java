@@ -9,7 +9,7 @@ public class DogWalkCompany
     }
     public String toString()
     {
-        String s = "";
+        String s = " ";
         for (int i = 0; i < schedule.length; i++)
             s += i + " " + schedule[i] + "\n";
         return s;
